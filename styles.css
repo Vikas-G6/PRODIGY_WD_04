@@ -1,0 +1,170 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #004c80;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav:hover{
+    color: #89ffda;
+}
+#navbar{
+    color: rgb(255, 255, 255);
+}
+#navbar:hover{
+    color: aquamarine;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    color: #fff;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 50%;
+}
+
+.hero {
+    background-image: url('BG.jpg');
+    background-size: cover;
+    color: #006aff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ff6e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.about{
+font-size: 20px;
+}
+
+.contact {
+    padding: 80px 0;
+}
+
+.project-card {
+    margin-bottom: 30px;
+}
+
+.project-card img {
+    height: 250px;
+    width: 500px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+.about {
+    padding: 80px 0;
+}
+
+/* Projects Section Styles */
+.projects {
+    padding: 80px 0;
+}
+
+.project-card {
+    margin-bottom: 30px;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Skills Section Styles */
+.skills {
+    padding: 80px 0;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 80px 0;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #006aff;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
